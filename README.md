@@ -23,20 +23,15 @@
 
 ## 🏗️ Структура проекта
 
- src/
-  ├── main/
-   │ ├── java/com/example/hr/
-    │ │ ├── Person.java # Сущность сотрудника
-     │ │ ├── Department.java # Сущность подразделения
- │ │ ├── Main.java # Главный класс приложения
- │ │ ├── service/
- │ │ │ └── CsvReaderService.java # Сервис чтения CSV
- │ │ └── util/
- │ │ └── DateUtil.java # Утилиты для работы с датами
- │ └── resources/
- │ └── foreign_names.csv # Исходные данные (25,898 записей)
- └── test/
- └── java/... # Unit-тесты
+ ## Структура проекта
+
+src/main/java/com/example/hr/Person.java           - Сущность сотрудника
+src/main/java/com/example/hr/Department.java       - Сущность подразделения
+src/main/java/com/example/hr/Main.java            - Главный класс приложения
+src/main/java/com/example/hr/service/CsvReaderService.java - Сервис чтения CSV
+src/main/java/com/example/hr/util/DateUtil.java   - Утилиты для работы с датами
+src/main/resources/foreign_names.csv              - Исходные данные (25,898 записей)
+src/test/java/...                                - Unit-тесты
 
 
 ## 📊 Формат данных CSV
