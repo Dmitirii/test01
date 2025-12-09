@@ -59,13 +59,13 @@ text
 ### Сборка и запуск
             ```bash
 # Сборка проекта
-mvn clean compile
+            mvn clean compile
 # Запуск тестов
-mvn test
+            mvn test
 # Создание исполняемого JAR
-mvn clean compile assembly:single
+            mvn clean compile assembly:single
 # Запуск приложения
-java -jar target/hr-system.jar
+            java -jar target/hr-system.jar
 
 
 
@@ -77,7 +77,9 @@ mvn clean compile exec:java
 
 ### Только тестирование
 mvn test
+
 ##📈 Результаты работы
+
 Пример вывода:
 text
 Read 25898 people:
