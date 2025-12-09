@@ -57,7 +57,6 @@ text
 
 ### Сборка и запуск
 
-```bash
 # Сборка проекта
 mvn clean compile
 
