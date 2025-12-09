@@ -57,19 +57,17 @@ text
 
 
 ### Сборка и запуск
-
 ```bash
 # Сборка проекта
 mvn clean compile
-
 # Запуск тестов
 mvn test
-
 # Создание исполняемого JAR
 mvn clean compile assembly:single
-
 # Запуск приложения
 java -jar target/hr-system.jar
+
+
 
 
 ### Запуск через Maven
