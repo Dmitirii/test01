@@ -57,14 +57,18 @@ src/
 ### Сборка и запуск
 
 ``bash
-# Сборка проекта
+### Сборка проекта
 mvn clean compile
 
-# Запуск тестов
+### Запуск тестов
 mvn test
 
-# Создание исполняемого JAR
+### Создание исполняемого JAR
 mvn clean compile assembly:single
 
-# Запуск приложения
+### Запуск приложения
 java -jar target/hr-system.jar
+
+
+
+ 
