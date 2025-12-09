@@ -83,7 +83,6 @@ Person{id=1, name='John', gender='Male', department=Department{id=1, name='IT'},
 ...
 
 Statistics:
-=
 Total employees: 25898
 Average salary: 5441.50
 
