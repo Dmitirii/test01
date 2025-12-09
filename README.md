@@ -69,6 +69,37 @@ mvn clean compile assembly:single
 ### Запуск приложения
 java -jar target/hr-system.jar
 
+## Запуск через Maven
+- mvn clean compile exec:java
+- mvn test
 
+## 📈 Результаты работы
+Пример вывода:
 
+Read 25898 people:
+======================================
+Person{id=1, name='John', gender='Male', department=Department{id=1, name='IT'}, salary=5000.0, birthDate=1990-05-15}
+...
+
+Statistics:
+======================================
+Total employees: 25898
+Average salary: 5441.50
+
+Employees by department:
+  A: 1744
+  B: 1721
+  C: 1824
+  D: 1660
+  E: 1660
+  F: 1806
+  G: 1699
+  H: 1747
+  I: 1700
+  J: 1723
+  K: 1645
+  L: 1718
+  M: 1722
+  N: 1793
+  O: 1736
  
