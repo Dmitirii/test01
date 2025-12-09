@@ -76,13 +76,14 @@ java -jar target/hr-system.jar
 
 ## 📈 Результаты работы
 ### Пример вывода:
+
+=
 Read 25898 people:
-======================================
 Person{id=1, name='John', gender='Male', department=Department{id=1, name='IT'}, salary=5000.0, birthDate=1990-05-15}
 ...
 
 Statistics:
-======================================
+=
 Total employees: 25898
 Average salary: 5441.50
 
